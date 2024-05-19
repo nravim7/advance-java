@@ -12,8 +12,9 @@ public class OperatorPrecedenceChallenge {
         double remainderValue = resultedValue % 40.00;
         System.out.println("The Remainder = " + remainderValue);
 
-        boolean hasRemainderValue = (remainderValue == 0) ? true : false;
-        if (!hasRemainderValue) {
+        boolean isNoRemainder = (remainderValue == 0) ? true : false;
+        System.out.println("isNoRemainder = " + isNoRemainder);
+        if (!isNoRemainder) {
             System.out.println("The Remainder is present!!");
         }
     }
